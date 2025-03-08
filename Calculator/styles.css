@@ -41,13 +41,25 @@ button:active{
 }
 .equal-button{
     background-color: rgb(0, 204, 255);
+    width: 200%;
+
 }
 .equal-button:hover{
     background-color: rgb(0, 220, 255);
 }
 
+.clear-button{
+    background-color: rgb(225, 56, 56);
+}
+.clear-button:hover{
+    background-color: rgb(222, 81, 81);
+}
+
+
+
 #keys{
     display: grid;
+    justify-content: start;
     grid-template-columns: repeat(4, 0fr);
     grid-gap: 10px;
     padding: 20px;
