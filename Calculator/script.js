@@ -8,6 +8,10 @@ function appendOperator(operator){
     display.value += operator;
 }
 
+function percentageOperator(){
+    display.value = display
+}
+
 function clearDisplay(){
     display.value = '';
 }
@@ -18,4 +22,8 @@ function calculate(){
     }catch{
         display.value = 'Error';
     }
+}
+
+function deleteLast(){
+    display.value = display.value.slice(0, -1)
 }
